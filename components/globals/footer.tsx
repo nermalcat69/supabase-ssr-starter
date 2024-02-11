@@ -13,6 +13,7 @@ export function Footer() {
           </span>
         </span>
         <div className="flex flex-1 items-center justify-end space-x-4">
+          <p className="font-medium text-gray-800">Contribute</p>
           <nav className="flex items-center ">
             <Link
               href={siteConfig.links.github}

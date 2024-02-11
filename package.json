@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "format": "exec prettier . --write",
     "preview": "next build && next start",
     "typecheck": "tsc --noEmit"
   },
@@ -13,7 +14,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
-    "geist": "^1.0.0",
+    "geist": "^1.2.2",
     "next": "^14.1.0",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
@@ -27,6 +28,7 @@
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "autoprefixer": "^10.4.14",
+    "prettier": "2.8.8",
     "tailwindcss": "^3.3.2",
     "typescript": "^4.9.5"
   }
