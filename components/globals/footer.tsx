@@ -1,6 +1,6 @@
-import Link from "next/link"
-import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6"
-import { siteConfig } from "@/lib/config/site"
+import Link from "next/link";
+import { FaGithub, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
+import { siteConfig } from "@/lib/config/site";
 
 export function Footer() {
   return (
@@ -31,5 +31,5 @@ export function Footer() {
         </div>
       </div>
     </header>
-  )
+  );
 }

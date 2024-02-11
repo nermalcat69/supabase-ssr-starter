@@ -1,12 +1,12 @@
-import * as React from "react"
-import Link from "next/link"
+import * as React from "react";
+import Link from "next/link";
 
-import { NavItem } from "@/types/nav"
-import { siteConfig } from "@/lib/config/site"
-import { cn } from "@/lib/utils"
+import { NavItem } from "@/lib/types/nav";
+import { siteConfig } from "@/lib/config/site";
+import { cn } from "@/lib/utils";
 
 interface MainNavProps {
-  items?: NavItem[]
+  items?: NavItem[];
 }
 
 export function MainNav({ items }: MainNavProps) {
@@ -38,5 +38,5 @@ export function MainNav({ items }: MainNavProps) {
         </nav>
       ) : null}
     </div>
-  )
+  );
 }

@@ -1,9 +1,9 @@
-import Link from "next/link"
-import { FaGithub } from "react-icons/fa6"
+import Link from "next/link";
+import { FaGithub } from "react-icons/fa6";
 
-import { siteConfig } from "@/lib/config/site"
-import { buttonVariants } from "@/components/ui/button"
-import { MainNav } from "@/components/globals/main-nav"
+import { siteConfig } from "@/lib/config/site";
+import { buttonVariants } from "@/components/ui/button";
+import { MainNav } from "@/components/globals/main-nav";
 
 export function Header() {
   return (
@@ -28,5 +28,5 @@ export function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
