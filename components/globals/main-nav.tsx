@@ -2,7 +2,7 @@ import * as React from "react"
 import Link from "next/link"
 
 import { NavItem } from "@/types/nav"
-import { siteConfig } from "@/config/site"
+import { siteConfig } from "@/lib/config/site"
 import { cn } from "@/lib/utils"
 
 interface MainNavProps {

@@ -2,7 +2,7 @@ import "@/styles/globals.css"
 import { Metadata } from "next"
 import { GeistSans } from "geist/font"
 
-import { siteConfig } from "@/config/site"
+import { siteConfig } from "@/lib/config/site"
 import { cn } from "@/lib/utils"
 import { Footer } from "@/components/globals/footer"
 import { Header } from "@/components/globals/header"
