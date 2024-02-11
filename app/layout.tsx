@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Metadata } from "next";
-import { GeistSans } from "geist/font";
+import { GeistSans } from "geist/font/sans";
 
 import { siteConfig } from "@/lib/config/site";
 import { cn } from "@/lib/utils";
