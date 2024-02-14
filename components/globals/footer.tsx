@@ -6,11 +6,12 @@ export function Footer() {
     <header className="fixed bottom-0 z-40 w-full mt-auto">
       <div className="container flex h-32 items-center space-x-4 justify-center sm:space-x-0">
         <span className="text-[#DEDEDE]">
-          Powered by {" "}
+          Powered by{" "}
           <span className="font-bold hover:text-gray-600 cursor-pointer">
             Supabase{" "}
           </span>
-            &        <span className="font-bold hover:text-gray-600 cursor-pointer">
+          &{" "}
+          <span className="font-bold hover:text-gray-600 cursor-pointer">
             Vercel
           </span>
         </span>

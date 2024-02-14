@@ -18,7 +18,7 @@ export function MainNav({ items }: MainNavProps) {
         </span>
       </Link>
       <span className="text-gray-100">/</span>
-      {items?.length ? ( 
+      {items?.length ? (
         <nav className="flex gap-6">
           {items?.map(
             (item, index) =>
