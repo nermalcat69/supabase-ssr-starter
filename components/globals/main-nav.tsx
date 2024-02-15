@@ -13,7 +13,7 @@ export function MainNav({ items }: MainNavProps) {
   return (
     <div className="flex items-center gap-4 md:gap-2">
       <Link href="https://www.nermalcat69.com" className="flex space-x-2">
-        <span className="text-lg text-gray-100 inline-block font-bold">
+        <span className="text-sm md:text-lg text-gray-100 inline-block font-bold">
           {siteConfig.name}
         </span>
       </Link>
@@ -27,7 +27,7 @@ export function MainNav({ items }: MainNavProps) {
                   key={index}
                   href={item.href}
                   className={cn(
-                    "flex items-center font-medium text-[#c8c8c8] text-lg",
+                    "flex items-center font-medium text-[#c8c8c8] text-sm md:text-lg",
                     item.disabled && "cursor-not-allowed opacity-80"
                   )}
                 >
