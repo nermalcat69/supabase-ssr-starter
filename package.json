@@ -11,15 +11,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@supabase/ssr": "^0.1.0",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
     "geist": "^1.2.2",
+    "lucide-react": "^0.331.0",
     "next": "^14.1.0",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.50.1",
     "react-icons": "^4.11.0",
     "tailwind-merge": "^1.13.2",
     "tailwindcss-animate": "^1.0.6"

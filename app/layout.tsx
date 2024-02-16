@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/config/site";
 import { cn } from "@/lib/utils";
 import { Footer } from "@/components/globals/footer";
 import { Header } from "@/components/globals/header";
-import { Hello } from "@/components/globals/hello";
+import Hello  from "@/components/globals/hello";
 
 export const metadata: Metadata = {
   title: {
