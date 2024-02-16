@@ -61,7 +61,7 @@ export default function SignupModal({
       return redirect("/login?message=Could not authenticate user");
     }
 
-    return redirect("/login?message=Check email to continue sign in process");
+    return redirect("/successful");
   };
 
   return (
