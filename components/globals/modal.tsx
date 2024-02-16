@@ -37,7 +37,7 @@ export default function SignupModal({
       return redirect("/login?message=Could not authenticate user");
     }
 
-    return redirect("/dashboard");
+    return redirect("/");
   };
 
   const signUp = async (formData: FormData) => {
@@ -53,7 +53,7 @@ export default function SignupModal({
       email,
       password,
       options: {
-        emailRedirectTo: `/auth/callback`,
+        emailRedirectTo: `${origin}/auth/callback`,
       },
     });
 
