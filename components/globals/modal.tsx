@@ -34,7 +34,7 @@ export default function SignupModal({
     });
 
     if (error) {
-      return redirect("/login?message=Could not authenticate user");
+      return redirect("/");
     }
 
     return redirect("/");
