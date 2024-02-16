@@ -5,7 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import SignupModal from "./modal";
 import { Button } from "../ui/button";
 
-export default async function AuthButton() {
+export async function AuthButton() {
   const cookieStore = cookies();
   const supabase = createClient(cookieStore);
 

@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 import { siteConfig } from "@/lib/config/site";
 // import { buttonVariants } from "@/components/ui/button";
 import { MainNav } from "@/components/globals/main-nav";
-import AuthButton from "./authbutton";
+import { AuthButton } from "./authbutton";
 
 export function Header() {
   return (
@@ -13,7 +13,7 @@ export function Header() {
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-5">
-            <AuthButton />
+            {AuthButton()}
             <Link
               href="https://github.com/nermalcat69/supabase-ssr-starter"
               target="_blank"
