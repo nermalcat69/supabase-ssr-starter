@@ -1,11 +1,12 @@
 # Supabase SSR Starter (Next.js)
 
-![header-image](https://repository-images.githubusercontent.com/699297039/5acd85f6-0375-4b85-878b-e3ca7b95580f)
+![supabase-ssr-starter](https://github.com/nermalcat69/supabase-ssr-starter/assets/73933669/2bea0b42-d5c3-4610-b7de-1f9bdaf412ba)
 
-Template with sleek user interface
+Supabase ssr authentication starter
 
 ## Features
 
-- Next.js 13 App Directory
+- Next.js 14 App Directory
+- Supabase Ssr
 - Shadcn Ui
 - Tailwind CSS
