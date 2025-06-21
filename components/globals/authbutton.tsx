@@ -6,6 +6,15 @@ import SignupModal from "./modal";
 import { Button } from "../ui/button";
 
 export async function AuthButton() {
+  async function signOut() {
+    "use server";
+
+    const cookieStore = cookies();
+    const supabase = createClient(cookieStore);
+    await supabase.auth.signOut();
+    return redirect("/");
+  }
+
   try {
     const cookieStore = cookies();
     const supabase = createClient(cookieStore);
@@ -13,15 +22,6 @@ export async function AuthButton() {
     const {
       data: { user },
     } = await supabase.auth.getUser();
-
-    async function signOut() {
-      "use server";
-
-      const cookieStore = cookies();
-      const supabase = createClient(cookieStore);
-      await supabase.auth.signOut();
-      return redirect("/");
-    }
 
     return user ? (
       <div className="flex items-center gap-4">
