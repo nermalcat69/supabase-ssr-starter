@@ -25,16 +25,16 @@ interface RootLayoutProps {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={GeistSans.className} suppressHydrationWarning>
       <head />
       <body className={cn("min-h-screen bg-supabasebg font-sans antialiased")}>
         <div className="relative flex flex-col min-h-screen">
-          <Header />
+          {await Header()}
           <div className="flex-1">{children}</div>
         </div>
-        <Hello />
+        {await Hello()}
         <Footer />
       </body>
     </html>
