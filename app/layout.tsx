@@ -34,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <Header />
           <div className="flex-1">{children}</div>
         </div>
-        {Hello()}
+        <Hello />
         <Footer />
       </body>
     </html>
